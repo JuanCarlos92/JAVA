@@ -2,12 +2,14 @@
  *
  * @author Juan Carlos
  */
-public class Scanner {
 
+import java.util.Scanner;
+
+public class Scanner {
 
     public static void main(String[] args) {
         // Para instanciarlo
-        Scanner sc =new Scanner(Systemm.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Hola, escribe una palabra: ");
         String str1 = sc.next();
